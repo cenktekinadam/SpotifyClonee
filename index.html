@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Adm&Music</title>
+</head>
+
+<body>
+    <!-- leftSide -->
+    <aside>
+        <img id="logo" src="images/no-text-logo.png" alt=""> 
+        <img id="text-logo" src="images/text-logo.png" alt="">
+        <nav>
+            <a href="/">
+                <i class="bi bi-house-fill"></i>
+                <span>Anasayfa</span>
+            </a>
+
+
+            <a href="/">
+                <i class="bi bi-search"></i>
+                <span>Arama</span>
+            </a>
+
+
+            <a href="/">
+                <i class="bi bi-bookmark-fill"></i>
+                <span>Kütüphane</span>
+            </a>
+
+
+            <a href="/">
+                <i class="bi bi-music-note-list"></i>
+                <span>Çalma Listeleri</span>
+            </a>
+
+            <a href="/">
+                <i class="bi bi-heart-fill"></i>
+                <span>Beğenilen Şarkılar</span>
+            </a>
+
+        </nav>
+
+    </aside>
+    <!-- MAin Contents -->
+    <main>
+        <!-- Top Side -->
+        <header>
+            <form id="search-form">
+                <input type="search" placeholder="Şarkı İSmi Giriniz">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+            <ul>
+                <li>Premium</li>
+                <li>Destek</li>
+                <li>İndirmeler</li>
+                <li>Kayıt Ol</li>
+            </ul>
+
+              <!-- Toggle -->
+              <label class="theme-switch">
+                <input
+                  id="mode-checkbox"
+                  type="checkbox"
+                  class="theme-switch__checkbox"
+                />
+                <div class="theme-switch__container">
+                  <div class="theme-switch__clouds"></div>
+                  <div class="theme-switch__stars-container"></div>
+                  <div class="theme-switch__circle-container">
+                    <div class="theme-switch__sun-moon-container">
+                      <div class="theme-switch__moon">
+                        <div class="theme-switch__spot"></div>
+                        <div class="theme-switch__spot"></div>
+                        <div class="theme-switch__spot"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </label>
+              
+        </header>
+        <!-- Songs -->
+        <div class="songs">
+            <h1 id="title">Popular Songs</h1>
+
+            <div id="list">
+                <!--  <div class="card">
+                    <figure>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/f4/92/54f49210-e260-b519-ebbd-f4f40ee710cd/054391342751.jpg/400x400cc.jpg"
+                            alt="">
+
+                        <div id="play">
+                            <i id="play-btn" class="bi bi-play-fill"></i>
+                        </div>
+                    </figure>
+                    
+                    <h4>Sanatçı  İsmi</h4>
+                    <p>ŞArkı İsmi</p>
+                </div> -->
+            </div>
+
+        </div>
+    </main>
+    <!-- Play -->
+    <div class="play-area">
+        <!-- <div>
+            <img class="animate"
+                src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a7/06/99/a70699f9-2f5a-9198-fe70-6236b534738f/06UMGIM16683.rgb.jpg/400x400cc.jpg" />
+            <div>
+                <p>Şuan Oynatılıyor...</p>
+                <h3>Lose Yourself (From "8 Mile")</h3>
+            </div>
+        </div>
+
+        <audio controls src=""></audio> -->
+    </div>
+  
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
