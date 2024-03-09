@@ -18,4 +18,6 @@ Bu proje, Spotify'nin REST API'sini kullanarak veri alışverişi yapar. REST (R
 - **Vanilla JavaScript:** Temel işlevsellik ve dinamik özellikler için kullanılmıştır.
 - **HTML5:** Sayfa yapısını ve içeriğini oluşturmak için kullanılmıştır.
 - **SCSS:** Daha düzenli ve yönetilebilir CSS kodları yazmak için kullanılmıştır.
+
+
 ![](2024-03-0923-59-46-ezgif.com-video-to-gif-converter.gif)
